@@ -4,11 +4,11 @@ import React from 'react';
 function Header() {
   return (
       <header className="flex-row px-1">
-        <h2>
+        <h1>
             <a data-testid="link" href="/">
             MACHEYA
             </a>
-        </h2>
+        </h1>
 
         <ul className="flex-row">
       

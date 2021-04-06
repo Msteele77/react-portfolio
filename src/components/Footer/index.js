@@ -4,7 +4,7 @@ import React from 'react';
 function Footer() {
   return (
     <section>
-      <h1 id="footer">I'm a footer</h1>
+      <h2 id="footer">I'm a footer</h2>
     </section>
   );
 }

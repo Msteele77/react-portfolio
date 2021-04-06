@@ -9,14 +9,12 @@ function App() {
   return (
     <div>
       <main>
-    <Header></Header>
+        <Header></Header>
 
 
-
-
-    <Footer></Footer>
+        <Footer></Footer>
     </main>
-    </div>
+  </div>
   );
 }
 
