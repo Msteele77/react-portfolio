@@ -1,9 +1,21 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+//import Project from './components/Project';
+
 
 function App() {
   return (
-    <div>App.js
+    <div>
+      <main>
+    <Header></Header>
+
+
+
+
+    <Footer></Footer>
+    </main>
     </div>
   );
 }
