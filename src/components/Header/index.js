@@ -10,7 +10,7 @@ function Header() {
             </a>
         </h1>
 
-        <ul className="flex-row">
+        <ul className="flex-row navigation">
       
         <li className="mx-2">
           <a data-testid="about" href="#about">

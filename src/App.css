@@ -26,13 +26,21 @@ header {
   background-color: var(--primary);
   justify-content: space-between;
   margin-left: 2px;
+  
 }
 
-ul {
-  margin: 15px;
-  display: flex;
-  flex-wrap: wrap;
+.navigation {
+  margin-right: 2px;
   justify-content: space-between;
+  display: flex;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -58,14 +66,12 @@ nav li {
   flex-wrap: wrap;
 }
 
-
 a {
-  border-radius: 5px;
   color: var(--secondary);
   font-weight: 600;
-  padding: 2px 4px;
-  margin-left: -2px;
-  margin-right: -2px;
   text-decoration: none;
 }
 
+img {
+  max-height: 40px;
+}

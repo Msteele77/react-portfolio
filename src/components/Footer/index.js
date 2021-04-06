@@ -1,28 +1,30 @@
 import React from 'react';
-
+import github from '../../assets/images/github.png';
+import linkedin from '../../assets/images/linkedin.png';
+import email from '../../assets/images/email.png';
 
 function Footer() {
   return (
     <div className="flex-row">
-                <div className="contacts">
-                    <ul>
+                
+                    <ul class="contacts">
                         <li>
                            <a href="mailto:mcheysteele@gmail.com">
-                             <img src="src/assets/images/email.png" alt="email-icon"></img>
+                           <img src={email} alt="email-icon"></img>
                             </a>
                         </li>
                         <li>
                             <a href="https://github.com/Msteele77">
-                              <img src="github.png" alt="github-icon"></img>
+                              <img src={github} alt="github-icon"></img>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/macheya-steele">
-                              <img src={require("linkedin.png")} />
+                              <img src={linkedin }alt="linkedin-icon"/>
                             </a>
                         </li>
                     </ul>
-                </div>
+                
             </div>
   );
 }
