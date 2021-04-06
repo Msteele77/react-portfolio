@@ -15,11 +15,13 @@ main {
   max-width: 99%;
   padding: 4x 4px;
   background-color: var(--primary);
+  
 }
 
 html,
 body {
   min-height: 100%;
+  color: var(--light);
 }
 
 header {
@@ -75,3 +77,43 @@ a {
 img {
   max-height: 40px;
 }
+
+textarea {
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+form {
+  width: 40%;
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: transparent;
+  border: solid 1px var(--light);
+  border-radius: 5px;
+}
+
