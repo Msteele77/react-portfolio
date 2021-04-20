@@ -117,3 +117,11 @@ button {
   border-radius: 5px;
 }
 
+.item-2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+ 
+  
+  background-size: cover;
+  opacity: .50;
+}
