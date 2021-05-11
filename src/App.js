@@ -17,9 +17,10 @@ function App() {
       <main>
         <Header></Header>
         <About></About>
-        <ContactForm></ContactForm>
+        
         <Portfolio></Portfolio>
         <Resume></Resume>
+        <ContactForm></ContactForm>
         <Footer></Footer>
       </main>
     </div>

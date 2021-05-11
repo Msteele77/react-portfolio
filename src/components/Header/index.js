@@ -3,10 +3,10 @@ import React, { useState } from "react";
 
 function Header() {
   return (
-      <header className="flex-row px-1">
+      <header className="flex-row px-1 header">
         <h1>
             <a data-testid="link" href="/">
-            MACHEYA
+            MACHEYA STEELE
             </a>
         </h1>
 

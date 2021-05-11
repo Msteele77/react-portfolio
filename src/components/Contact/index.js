@@ -10,8 +10,9 @@ function ContactForm() {
 
 
     return (
-        <section id="contact">
-          <h1>Contact me</h1>
+        <section class="contact-section">
+          <h2>Contact me</h2>
+      <div  id="contact">
           <form id="contact-form">
             <div>
               <label htmlFor="name">Name:</label>
@@ -27,6 +28,7 @@ function ContactForm() {
             </div>
             <button type="submit">Submit</button>
           </form>
+          </div>
         </section>
         );
 }

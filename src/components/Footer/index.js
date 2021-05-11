@@ -5,6 +5,8 @@ import email from '../../assets/images/email.png';
 
 function Footer() {
   return (
+    <section class="footer">
+      <h2>Connect With Me</h2>
     <div className="flex-row">
                 
                     <ul class="contacts">
@@ -26,6 +28,7 @@ function Footer() {
                     </ul>
                 
             </div>
+            </section>
   );
 }
 

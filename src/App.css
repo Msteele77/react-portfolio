@@ -1,11 +1,11 @@
 
 
 :root {
-  --primary: #6D8885;
-  --secondary: #fac465;
-  --tertiary: #fac465;
-  --light: #f8a48e;
-  --bright: #f66742; 
+  --green: #6D8885;
+  --blue: #c5d4db;
+  --yellow: #fac465;
+  --pink: #f8a48e;
+  --orange: #f66742; 
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
@@ -15,18 +15,18 @@ main {
   margin: 0 auto;
   max-width: 99%;
   padding: 4x 4px;
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
   
 }
 
 html,
 body {
   min-height: 100%;
-  color: var(--light);
+  background-color: var(--blue);
 }
 
 header {
-  background-color: var(--primary);
+  background-color: var(--blue);
   justify-content: space-between;
   margin-left: 2px;
   
@@ -44,6 +44,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0px;
 }
 
 h1 {
@@ -101,11 +102,12 @@ input:focus {
 }
 
 form {
-  width: 40%;
+  width: 200px;
+  margin: 4px;
 }
 
 button {
-  font-size: 1rem;
+
   text-decoration: none;
   padding: 0.25rem 1rem;
   border-radius: 0.5rem;
@@ -114,8 +116,9 @@ button {
   cursor: pointer;
   margin: 0 1px;
   background-color: transparent;
-  border: solid 1px var(--light);
+  border: solid 1px black;
   border-radius: 5px;
+  margin: 2px;
 }
 
 .item-2 {
@@ -131,3 +134,56 @@ button {
   min-height: 200px;
   margin: 4px;
 }
+
+.grid-container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: 200px 1fr;
+
+
+
+}
+
+#contact {
+  /* border: solid 1px black; */
+  max-width: 500px;
+  
+}
+
+textarea {
+  max-width: 450px;
+}
+
+.footer {
+  background-color: var(--green);
+}
+
+.contact-section {
+  background-color: var(--yellow)
+}
+
+#resume {
+  background-color: var(--orange);
+}
+
+#portfolio {
+  background-color: var(--pink);
+}
+
+.about-section {
+  background-color: var(--blue);
+
+
+}
+
+h2 {
+  padding: 4px;
+}
+
+h1 {
+  color: var(--green);
+  font-weight: bold;
+}
+
+
+

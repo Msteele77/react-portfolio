@@ -4,35 +4,32 @@ import Headshot from "../../assets/images/headshot.jpeg";
 function About() {
   return (
     
-    <section className="my-5">
+    <section className="my-5 about-section">
    
-      <h1 id="about">A Little About Me</h1>
+      <h2 id="about">A Little About Me</h2>
+      <div class="grid-container">
+      <div class="grid-child">
       <img 
       src={Headshot}
       class="headshot"
                 
               />
-      
-      <div className="my-2">
+      </div>
+      <div className="my-2 grid-child">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+        Front-end developer who’s passionate about the creative and visual aspects of
+         programming. Graduate of University of Utah’s Full-Stack Web Development
+          program. Recently designed and built the front-end of a social media 
+          application for a group project using HTML, CSS, Handlebars.js, and 
+          Javascript with an emphasis in Bootstrap. Excited to build functional 
+          and attractive products by leveraging my background in Quality Assurance to 
+          bring the best user experience. 
         </p>
-        <break></break>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare.
-        </p>
+        
 
         
       </div>
-      
+      </div>
     </section>
   );
 }

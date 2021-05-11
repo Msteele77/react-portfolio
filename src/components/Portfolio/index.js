@@ -7,7 +7,7 @@ function Portfolio (props) {
     
       <section id="portfolio">
             
-            <h1>portfolio</h1>
+            <h2>Projects</h2>
     <Project></Project>
                
       </section>
