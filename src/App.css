@@ -2,9 +2,10 @@
 
 :root {
   --primary: #6D8885;
-  --secondary: #22333B;
-  --tertiary: #4F4740;
-  --light: #EAE0D5;
+  --secondary: #fac465;
+  --tertiary: #fac465;
+  --light: #f8a48e;
+  --bright: #f66742; 
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
@@ -124,4 +125,9 @@ button {
   
   background-size: cover;
   opacity: .50;
+}
+
+.headshot {
+  min-height: 200px;
+  margin: 4px;
 }

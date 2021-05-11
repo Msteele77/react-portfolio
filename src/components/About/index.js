@@ -1,9 +1,17 @@
 import React from 'react';
+import Headshot from "../../assets/images/headshot.jpeg";
 
 function About() {
   return (
+    
     <section className="my-5">
+   
       <h1 id="about">A Little About Me</h1>
+      <img 
+      src={Headshot}
+      class="headshot"
+                
+              />
       
       <div className="my-2">
         <p>
@@ -21,7 +29,10 @@ function About() {
           mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
           Aenean sollicitudin nulla at nisi ornare.
         </p>
+
+        
       </div>
+      
     </section>
   );
 }

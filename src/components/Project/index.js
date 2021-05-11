@@ -1,18 +1,26 @@
 import React from 'react';
+import budgetTracker from "../../assets/images/budget.png";
 
+function Project (props) {
+  
+  const projects = {
+    name:"Budget Tracker",
+    description: "Budget Tracker Description"
+  };
 
-function Project () {
   return (
     
       <section>
-            <h3>Projects</h3>
-
-            <a href="../../images/item1-image.png"></a>
+            
 
 
-            <a href="https://msteele77.github.io/run-buddy/"class="item-1">
-       
-            </a>
+            
+            <div className="flex-row">
+              <img
+                src={budgetTracker}
+                className="img-thumbnail mx-1"
+                />
+            </div>
 
                
       </section>

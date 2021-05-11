@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume () {
     return (
-        <section>
+        <section id="resume">
             <h2>Resume</h2>
             <p>Download My Full Resume Here:</p>
                 <h4>Front-End Proficiencies</h4>
