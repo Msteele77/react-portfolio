@@ -212,6 +212,7 @@ h4 {
   grid-gap: 4px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
+  padding: 2px;
 }
 
 .grid-item {
@@ -309,8 +310,24 @@ h4 {
 }
 
 .project-heading {
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   text-transform: uppercase;
   background-color: white;
+}
+
+.deployed-link {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+.github-link {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+ul {
+  padding: 4px;
 }

@@ -8,31 +8,11 @@ function Resume () {
                 
                 <ul>
                 <h4>Proficiencies</h4>
-                    <li>HTML / CSS</li>
+                    <li>HTML / CSS / Bootstrap / React</li>
                     <li>Git / Github / Heroku</li>
-                    <li>Bootstrap</li>
-                    <li>DOM</li>
-                    <li>APIs</li>
-                    <li>JQuery</li>
-                    <li>JSON</li>
-                    <li>AJAX</li>
-                    <li>Node</li>
-                    <li>ES6</li>
-                    <li>Object-Oriented Programming</li>
-                    <li>Object Relational Mapping</li>
-                    <li>Handlebars</li>
-                    <li>Express</li>
-                    <li>MySQL</li>
-                    <li>MVC Paradigm</li>
-                    <li>Sequelize</li>
-                    <li>Testing</li>
-                    <li>Agile Development</li>
-                    <li>Progressive Web Apps</li>
-                    <li>React</li>
-                    <li>NoSQL</li>
-                    <li>MERN Stack</li>
-                    <li>Mongo DB</li>
-                    <li>Model View Controller</li>
+                    <li>Javascript / JQuery</li>
+                    <li>Node / Express / Handlebars</li>
+                    <li>MySQL, NoSQL, MongoDB, Mongoose, Sequelize</li>
                 </ul>
                 
                 
