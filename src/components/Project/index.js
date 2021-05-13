@@ -17,6 +17,7 @@ function Project(props) {
 
     <section>
 
+
       <article id="projects" class="content-section">
 
         <div class="flex-column">
@@ -26,50 +27,102 @@ function Project(props) {
         <div class="grid-wrapper">
           <div class="grid-container-2">
 
-            <div class="grid-item item-1">
-              <div class="project-heading"><p>Minimal Prepper</p></div>
-              
-              <a class="deployed-link" href="https://minimal-prepper.herokuapp.com/">Deployed Application</a>
-              <a class="github-link" href="https://github.com/daniwhitlock/the-minimal-prepper">GitHub</a>
+          <div class="prepper">
+          <div class="project-heading"><p>Minimal Prepper</p></div>
+              <div class="links">
+                <a class="deployed-link" href="https://minimal-prepper.herokuapp.com/">Deployed Application</a>
+                <a class="github-link" href="https://github.com/daniwhitlock/the-minimal-prepper">GitHub</a>
+              </div>
+              </div>
+
+            <div class="grid-item prepper-img"
+              style={{
+                backgroundImage: `url(${minimalPrepper})`,
+                opacity: 0.5
+              }}>
             </div>
 
-            <div class="grid-item item-2">
-              <div class="project-heading"><p >Eats N Such</p></div>
-              
-              <a class="deployed-link" href="https://msteele77.github.io/run-buddy/">Deployed Application</a>
-              <a class="github-link" href="https://msteele77.github.io/Eats-n-such/">GitHub</a>
+            <div class="eats-heading">
+            <div class="project-heading"><p >Eats N Such</p></div>
+              <div class="links">
+                <a class="deployed-link" href="https://msteele77.github.io/run-buddy/">Deployed Application</a>
+                <a class="github-link" href="https://msteele77.github.io/Eats-n-such/">GitHub</a>
+              </div>
+              </div>
+
+            <div class="grid-item eats-img"
+              style={{
+                backgroundImage: `url(${eatsNSuch})`,
+                opacity: 0.5
+              }}>
+             
             </div>
 
-            <div class="grid-item item-3">
-              <div class="project-heading"><p >Budget Tracker</p></div>
+              <div class="budget-heading">
+            <div class="project-heading"><p >Budget Tracker</p></div>
+              <div class="links">
+                <a class="deployed-link" href="https://nameless-atoll-84120.herokuapp.com/">Deployed Application</a>
+                <a class="github-link" href="https://github.com/Msteele77/budget-tracker">GitHub</a>
+              </div>
+              </div>
+
+            <div class="grid-item budget-img"
+              style={{
+                backgroundImage: `url(${budgetTracker})`,
+                opacity: 0.5
+              }}>
               
-              <a class="deployed-link" href="https://nameless-atoll-84120.herokuapp.com/">Deployed Application</a>
-              <a class="github-link" href="https://github.com/Msteele77/budget-tracker">GitHub</a>
             </div>
 
-            <div class="grid-item item-4">
-              <div class="project-heading"><p >Work Day Scheduler</p></div>
-              
-              <a class="deployed-link" href="https://msteele77.github.io/scheduler/">Deployed Application</a>
-              <a class="github-link" href="https://github.com/Msteele77/scheduler">GitHub</a>
+
+              <div class="scheduler-heading">
+            <div class="project-heading"><p >Scheduler</p></div>
+              <div class="links">
+                <a class="deployed-link" href="https://msteele77.github.io/scheduler/">Deployed Application</a>
+                <a class="github-link" href="https://github.com/Msteele77/scheduler">GitHub</a>
+              </div>
+              </div>
+
+            <div class="grid-item scheduler-img"
+              style={{
+                backgroundImage: `url(${workDayScheduler})`,
+                opacity: 0.5
+              }}>
             </div>
 
-            <div class="grid-item item-5">
-              <div class="project-heading"><p>Note Taker</p></div>
+              <div class="note-heading">
+            <div class="project-heading"><p>Note Taker</p></div>
+              <div class="links">
+                <a class="deployed-link" href="https://miniature-eureka.herokuapp.com/">Deployed Application</a>
+                <a class="github-link" href="https://github.com/Msteele77/miniature-eureka">GitHub</a>
+              </div>
+              </div>
+
+            <div class="grid-item note-img"
+              style={{
+                backgroundImage: `url(${noteTaker})`,
+                opacity: 0.5
+              }}>
               
-              <a class="deployed-link" href="https://miniature-eureka.herokuapp.com/">Deployed Application</a>
-              <a class="github-link" href="https://github.com/Msteele77/miniature-eureka">GitHub</a>
             </div>
 
-            <div class="grid-item item-6">
-              <div class="project-heading"><p >Artstagram</p></div>
-              
-              <a class="deployed-link" href="https://github.com/pilar122/Artstagram">Deployed Application</a>
-              <a class="github-link" href="https://github.com/pilar122/Artstagram">GitHub</a>
-            </div>
-            
+              <div class="artstagram-heading">
+            <div class="project-heading"><p >Artstagram</p></div>
+              <div class="links">
+                <a class="deployed-link" href="https://github.com/pilar122/Artstagram">Deployed Application</a>
+                <a class="github-link" href="https://github.com/pilar122/Artstagram">GitHub</a>
+              </div>
+              </div>
 
-        </div>
+            <div class="grid-item art-img"
+              style={{
+                backgroundImage: `url(${artstagram})`,
+                opacity: 0.5
+              }}>
+             
+            </div>
+
+          </div>
         </div>
       </article>
 

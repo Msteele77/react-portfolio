@@ -121,14 +121,14 @@ button {
   margin: 2px;
 }
 
-.item-2 {
+/* .item-2 {
   grid-column-start: 3;
   grid-column-end: 4;
  
   
   background-size: cover;
   opacity: .50;
-}
+} */
 
 .headshot {
   min-height: 200px;
@@ -209,9 +209,9 @@ h4 {
   display: grid;
   width: 100%;
   max-width: 100%;
-  grid-gap: 4px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   padding: 2px;
 }
 
@@ -223,98 +223,129 @@ h4 {
   position: relative;
 }
 
-.item-1 {
+
+
+.prepper-img {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
   background-size: cover;
-  /* background-image: url("../images/item1-image.png"); */
-  opacity: .50;
 }
 
-.item-2 {
+.prepper-heading {
   grid-column-start: 3;
   grid-column-end: 4;
-  /* background-image: url("../images/item2-image.png"); */
-  background-size: cover;
-  opacity: .50;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
-.item-3 {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  align-items: center;
-  /* background-image: url("../images/prepper.png"); */
+
+.eats-img {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.eats-heading {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.budget-img{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
   background-size: cover;
-  opacity: .50;
   margin-right: 2px;
 }
 
-.item-4 {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  align-items: center;
-  grid-column-start: 2;
-  background-size: cover;
-  /* background-image: url("../images/item4-image.jpeg"); */
-  opacity: .50;
-}
-
-.item-5 {
-  grid-column-start: 1;
-  grid-row-end: 3;
-  align-items: center;
-  /* background-image: url("../images/item5-image.jpeg"); */
-  background-size: cover;
-  opacity: .50;
-}
-
-.item-6 {
-  /* grid-column-start: 3;
-  grid-row-end: 4; */
-
+.budget-heading {
   grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 3;
-
-  align-items: center;
-  /* background-image: url("../images/item5-image.jpeg"); */
-  background-size: cover;
-  opacity: .50;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
-.item-1:hover {
-  opacity: .70;
+.scheduler-img {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  align-items: center;
+  background-size: cover;  
+}
+
+.scheduler-heading {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+}
+
+.note-img {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  align-items: center;
+  background-size: cover;
+}
+
+.note-heading {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.art-img {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  background-size: cover;
+  align-items: center;
+
+}
+
+.art-heading {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+/* .item-1:hover {
+  opacity: .90;
 }
 
 .item-2:hover {
-  opacity: .70;
+  opacity: .90;
 }
 
 .item-3:hover {
-  opacity: .70;
+  opacity: .90;
 }
 
 .item-4:hover {
-  opacity: .70;
+  opacity: .90;
 }
 
 .item-5:hover {
-  opacity: .70;
+  opacity: .90;
 }
 
 .item-6:hover {
-  opacity: .70;
-}
+  opacity: .90;
+} */
 
-.project-heading {
-  font-size: 25px;
-  display: flex;
-  text-transform: uppercase;
-  background-color: white;
-}
+
 
 .deployed-link {
   display: flex;
@@ -330,4 +361,25 @@ h4 {
 
 ul {
   padding: 4px;
+}
+.project-heading {
+  font-size: 20px;
+  display: flex;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  background-color: var(--orange);
+  /* max-width: 200px; */
+  opacity: 1;
+}
+
+
+.links {
+  font-size: 20px;
+  opacity: 1;
+  color: white;
+  font-weight: bold;
+  /* opacity: .9; */
+  /* max-width: 200px; */
+  background-color: var(--green);
 }
