@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio';
 import About from './components/About';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
-
+// import Project from '.components/Project';
 function App() {
 
 
@@ -17,7 +17,7 @@ function App() {
       <main>
         <Header></Header>
         <About></About>
-        
+        {/* <Project></Project> */}
         <Portfolio></Portfolio>
         <Resume></Resume>
         <ContactForm></ContactForm>

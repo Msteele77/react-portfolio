@@ -15,16 +15,15 @@ function Project(props) {
 
   return (
 
-    <section>
+    <section  class="grid-wrapper">
 
+       {/* <article id="projects" class="content-section"> */}
 
-      <article id="projects" class="content-section">
+        {/* <div class="flex-column">
 
-        <div class="flex-column">
+        </div> */}
 
-        </div>
-
-        <div class="grid-wrapper">
+        
           <div class="grid-container-2">
 
           <div class="prepper">
@@ -123,8 +122,8 @@ function Project(props) {
             </div>
 
           </div>
-        </div>
-      </article>
+        
+      {/* </article> */}
 
     </section >
 

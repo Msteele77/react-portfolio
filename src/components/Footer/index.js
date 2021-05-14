@@ -11,17 +11,17 @@ function Footer() {
                 
                     <ul class="contacts">
                         <li>
-                           <a href="mailto:mcheysteele@gmail.com">
+                           <a class="icon" href="mailto:mcheysteele@gmail.com">
                            <img src={email} alt="email-icon"></img>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/Msteele77">
+                            <a class="icon" href="https://github.com/Msteele77">
                               <img src={github} alt="github-icon"></img>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/macheya-steele">
+                            <a class="icon" href="https://www.linkedin.com/in/macheya-steele">
                               <img src={linkedin }alt="linkedin-icon"/>
                             </a>
                         </li>
