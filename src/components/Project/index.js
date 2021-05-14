@@ -30,7 +30,7 @@ function Project(props) {
           <div class="project-heading"><p>Minimal Prepper</p></div>
               <div class="links">
                 <a class="deployed-link" href="https://minimal-prepper.herokuapp.com/">Deployed Application</a>
-                <a class="github-link" href="https://github.com/daniwhitlock/the-minimal-prepper">GitHub</a>
+                <a class="github-link" href="https://github.com/daniwhitlock/the-minimal-prepper">GitHub Repository</a>
               </div>
               </div>
 
@@ -45,7 +45,7 @@ function Project(props) {
             <div class="project-heading"><p >Eats N Such</p></div>
               <div class="links">
                 <a class="deployed-link" href="https://msteele77.github.io/run-buddy/">Deployed Application</a>
-                <a class="github-link" href="https://msteele77.github.io/Eats-n-such/">GitHub</a>
+                <a class="github-link" href="https://msteele77.github.io/Eats-n-such/">GitHub Repository</a>
               </div>
               </div>
 
@@ -61,7 +61,7 @@ function Project(props) {
             <div class="project-heading"><p >Budget Tracker</p></div>
               <div class="links">
                 <a class="deployed-link" href="https://nameless-atoll-84120.herokuapp.com/">Deployed Application</a>
-                <a class="github-link" href="https://github.com/Msteele77/budget-tracker">GitHub</a>
+                <a class="github-link" href="https://github.com/Msteele77/budget-tracker">GitHub Repository</a>
               </div>
               </div>
 
@@ -78,7 +78,7 @@ function Project(props) {
             <div class="project-heading"><p >Scheduler</p></div>
               <div class="links">
                 <a class="deployed-link" href="https://msteele77.github.io/scheduler/">Deployed Application</a>
-                <a class="github-link" href="https://github.com/Msteele77/scheduler">GitHub</a>
+                <a class="github-link" href="https://github.com/Msteele77/scheduler">GitHub Repository</a>
               </div>
               </div>
 
@@ -93,7 +93,7 @@ function Project(props) {
             <div class="project-heading"><p>Note Taker</p></div>
               <div class="links">
                 <a class="deployed-link" href="https://miniature-eureka.herokuapp.com/">Deployed Application</a>
-                <a class="github-link" href="https://github.com/Msteele77/miniature-eureka">GitHub</a>
+                <a class="github-link" href="https://github.com/Msteele77/miniature-eureka">GitHub Repository</a>
               </div>
               </div>
 
@@ -109,7 +109,7 @@ function Project(props) {
             <div class="project-heading"><p >Artstagram</p></div>
               <div class="links">
                 <a class="deployed-link" href="https://github.com/pilar122/Artstagram">Deployed Application</a>
-                <a class="github-link" href="https://github.com/pilar122/Artstagram">GitHub</a>
+                <a class="github-link" href="https://github.com/pilar122/Artstagram">GitHub Repository</a>
               </div>
               </div>
 

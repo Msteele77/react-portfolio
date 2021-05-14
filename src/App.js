@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
-import ContactForm from './components/Contact';
+import Contact from './components/Contact';
 import Resume from './components/Resume';
 // import Project from '.components/Project';
 function App() {
@@ -16,11 +16,11 @@ function App() {
     <div>
       <main>
         <Header></Header>
-        <About></About>
+        {/* <About></About> */}
         {/* <Project></Project> */}
         <Portfolio></Portfolio>
         <Resume></Resume>
-        <ContactForm></ContactForm>
+        <Contact></Contact>
         <Footer></Footer>
       </main>
     </div>
