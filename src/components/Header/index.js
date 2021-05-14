@@ -15,7 +15,7 @@ function Header() {
           class="headshot"
 
         />
-        <h1>MACHEYA STEELE</h1>
+        <h1>MACHEYA</h1>
         <p class="tag">Full Stack Web Developer</p>
         <p class="about">
         Full Stack developer who’s passionate about the creative and visual aspects of
