@@ -1,10 +1,11 @@
 
 
 :root {
-  --green: #6D8885;
+  /* --green: #6D8885; */
+  --blue: #20A39E;
   --dark: #2E2E3A;
-  --gold: #9D8D58;
-  --pink: #F97068;
+  /* --gold: #9D8D58; */
+  --pink: #F42272;
   --light-grey: #363645;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -25,7 +26,9 @@ main {
 html,
 body {
   min-height: 100%;
-  background-color: var(--green);
+  /* background-color: var(--green); */
+  /* background-image: linear-gradient(#20A39E #F42272 20%); */
+  background-image: linear-gradient(180deg, #20A39E, #F42272 );
 }
 
 header {
@@ -34,8 +37,8 @@ header {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -69,7 +72,7 @@ header {
 }
 
 a:hover {
-  color: var(--green);
+  color: var(--pink);
 }
 
 .headshot {
@@ -78,12 +81,12 @@ a:hover {
   border-radius: 50%;
   width: 200px;
   margin: 6px;
-  border: double 10px var(--gold);
+  border: double 10px var(--blue);
 }
 
 .hero {
   color: white;
-  margin-top: 300px;
+  margin-top: 150px;
   display: flex;  
   justify-items: center;
   flex-direction: column;
@@ -106,7 +109,7 @@ float: right;
 }
 
 .tag {
-  color: var(--green);
+  color: var(--pink);
   font-size: 35px;
   padding: 0px;
   margin: 0px;
@@ -123,7 +126,7 @@ nav li {
 }
 
 a {
-  color: var(--gold);
+  color: var(--blue);
   font-weight: 600;
   text-decoration: none;
   display: flex;
@@ -178,8 +181,8 @@ textarea {
 #contact-section {
   padding: 30px;
   background-color: var(--light-grey);
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
   display: grid;
   color: white;
 }
@@ -212,8 +215,8 @@ input {
 
 #resume {
   background-color: var(--dark);
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
   margin-bottom: 0px;
   display: grid;
   padding: 30px;
@@ -222,13 +225,13 @@ input {
 #portfolio {
   padding: 30px;
   background-color: var(--light-grey);
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .about-section {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
   background-color: var(--dark);
   display: flex;
   justify-items: center;
@@ -246,7 +249,7 @@ h2 {
   margin: 0px;
   font-family: 'Seymour One', sans-serif;
   font-size: 34px;
-  color: var(--gold);
+  color: var(--pink);
   padding-top: 6px;
   padding-bottom: 6px;
 }
@@ -400,7 +403,7 @@ ul {
 .resume-link {
   text-align: center;;
   margin: 10px;
-  color: white;
+  color: var(--blue);
   font-size: 18px;
   padding: 0px;
   display: flex;
@@ -415,7 +418,7 @@ ul {
   font-family: 'Seymour One', sans-serif;
   padding: 0px;
   margin: 0px;
-  background-color: var(--green);
+  background-color: var(--blue);
   border-bottom: 2px solid white;
   border-top: 2px solid white;
 }
@@ -437,7 +440,7 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
   padding: 30px;
 }
