@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.000b29c7.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.24cd36c3.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.24cd36c3.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.4aead98c.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.4aead98c.js.map",
+    "static/js/2.12e63821.chunk.js": "/react-portfolio/static/js/2.12e63821.chunk.js",
+    "static/js/2.12e63821.chunk.js.map": "/react-portfolio/static/js/2.12e63821.chunk.js.map",
+    "static/js/3.a002f1a3.chunk.js": "/react-portfolio/static/js/3.a002f1a3.chunk.js",
+    "static/js/3.a002f1a3.chunk.js.map": "/react-portfolio/static/js/3.a002f1a3.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.000b29c7.chunk.css.map": "/react-portfolio/static/css/main.000b29c7.chunk.css.map",
+    "static/js/2.12e63821.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.12e63821.chunk.js.LICENSE.txt",
+    "static/media/artstagram.947e8d99.png": "/react-portfolio/static/media/artstagram.947e8d99.png",
+    "static/media/budget-tracker.01a3e0f5.png": "/react-portfolio/static/media/budget-tracker.01a3e0f5.png",
+    "static/media/eats-n-such.71c7e9cf.png": "/react-portfolio/static/media/eats-n-such.71c7e9cf.png",
+    "static/media/headshot.97607565.png": "/react-portfolio/static/media/headshot.97607565.png",
+    "static/media/minimal-prepper.fea68181.png": "/react-portfolio/static/media/minimal-prepper.fea68181.png",
+    "static/media/note-taker.66beed98.png": "/react-portfolio/static/media/note-taker.66beed98.png",
+    "static/media/work-day-scheduler.07ad54f4.png": "/react-portfolio/static/media/work-day-scheduler.07ad54f4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4aead98c.js",
+    "static/js/2.12e63821.chunk.js",
+    "static/css/main.000b29c7.chunk.css",
+    "static/js/main.24cd36c3.chunk.js"
+  ]
+}
